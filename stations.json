@@ -1,0 +1,18 @@
+{
+  "stations": [
+    {
+      "id": "station_01",
+      "question": "What is the color of the door?",
+      "answers": ["red"],
+      "hint": "It is a warm color.",
+      "nextLocation": "Go to the big tree near the entrance."
+    },
+    {
+      "id": "station_02",
+      "question": "How many steps lead up to the statue?",
+      "answers": ["12", "twelve"],
+      "hint": "Count carefully.",
+      "nextLocation": "Head towards the old fountain."
+    }
+  ]
+}

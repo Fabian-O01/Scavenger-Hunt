@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meme-Schnitzeljagd</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <!-- Header -->
+    <header>
+      <h1 id="title">Meme-Schnitzeljagd</h1>
+    </header>
+
+    <!-- Status / error messages -->
+    <section id="message" class="hidden"></section>
+
+    <!-- Station content -->
+    <section id="station" class="hidden">
+      <p id="question"></p>
+
+      <input
+        type="text"
+        id="answer-input"
+        placeholder="Your answer"
+        autocomplete="off"
+      />
+
+      <button id="submit-answer">Antwort abgeben</button>
+
+      <button id="hint-button" class="secondary hidden">
+        Hinweis
+      </button>
+
+      <p id="hint" class="hidden"></p>
+    </section>
+
+    <!-- Next location -->
+    <section id="next-location" class="hidden">
+      <h2>Next location</h2>
+      <p id="location-text"></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
