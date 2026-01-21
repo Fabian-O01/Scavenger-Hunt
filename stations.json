@@ -2,17 +2,119 @@
   "stations": [
     {
       "id": "station_01",
+      "slug" : "interview",
       "question": "Was sind Unterstellungen?",
-      "answers": ["ein journalistischer Trick"],
+      "answers": ["ein journalistischer Trick", "journalistischer Trick"],
       "hint": "Sie hätten mich anders befragen müssen",
-      "nextLocation": "Hier muss der Hinweis für die nächste Station hin"
+      "nextLocation": {
+        "label": "Big tree near the entrance",
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
     },
     {
       "id": "station_02",
-      "question": "How many steps lead up to the statue?",
-      "answers": ["12", "twelve"],
-      "hint": "Count carefully.",
-      "nextLocation": "Head towards the old fountain."
+      "slug" : "geraet",
+      "question": "Was wird der Gerät nie?",
+      "answers": ["müde"],
+      "hint": "a) alt\nb) müde\nc) kaputt gehen\nd) teuer",
+      "nextLocation": {
+        "label": "Big tree near the entrance",
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
+    },
+    {
+      "id": "station_03",
+      "slug" : "frosch",
+      "question": "Was hat Walter Frosch nach seiner Einwechslung immer noch in seinen Stutzen stecken?",
+      "answers": ["Zigaretten", "Zigaretten Packung", "Zigarettenpackung", "Packung Zigaretten", "eine Packung Zigaretten", "eine Zigarettenpackung", "eine Zigaretten Packung"],
+      "hint": "a) Glücksbringer\nb) Rubbellose\nc) Zigaretten\nd) Ibuprofen",
+      "nextLocation": {
+        "label": "Big tree near the entrance",
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
+    },
+    {
+      "id": "station_04",
+      "slug" : "xatar",
+      "question": "Was will sich Xatar als erstes gönnen, wenn er aus dem Knast kommt",
+      "answers": ["Köftespieß", "Köfte-Spieß", "Köfte Spieß", "Köfte", "Ayran", "Handy", "Smartphone"],
+      "hint": "a) Tipico-Schein\nb) Köfte-Spieß\nc) Zigaretten\nd) Prostituierte",
+      "nextLocation": {
+        "label": "Big tree near the entrance",
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
+    },
+    {
+      "id": "station_05",
+      "slug" : "mbeezy",
+      "question": "Warum konnte Moneyboy im Jahre 2015 nicht im Ritz-Carlton einchecken? Es wurde _ _",
+      "answers": ["Orangensaft verschüttet"],
+      "hint": "Frag' nicht was für _! _ einfach! Turn up!",
+      "nextLocation": {
+        "label": "Big tree near the entrance",
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
+    },
+    {
+      "id": "station_06",
+      "slug" : "haltstop",
+      "question": "Was hat Psycho-Andreas wider Erwarten im Haus?",
+      "answers": ["Obst"],
+      "hint": "a) Obst\nb) Gemüse\nc) Staubwedel\nd) Klobürste",
+      "nextLocation": {
+        "label": "Big tree near the entrance",
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
+    },
+    {
+      "id": "station_07",
+      "slug" : "ruediger",
+      "question": "Um was wurde Rüdiger neben \"nicht so tief\" noch gebeten? Keine _",
+      "answers": ["Kapriolen", "Keine Kapriolen"],
+      "hint": "a) Eulenspiegeleien\nb) Schabernacke\nc) Schelmereien\nd) Kapriolen",
+      "nextLocation": {
+        "label": "Big tree near the entrance",
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
+    },
+    {
+      "id": "station_08",
+      "slug" : "ludolf",
+      "question": "Welches vielseitige Nahrungsmittel mag Peter Ludolf besonders gern?",
+      "answers": ["Nudel", "Nudeln", "Pasta"],
+      "hint": "Eine Nudel ist ein … – also ‘n Ganztag.\nMan kann im Winter, Sommer; man kann morgens, abends sie essen.\nEin Nudel ist ein wirklich ein sehr leckeres Gericht.\nMan kann Nudeln machen warm, man kann Nudeln machen kalt.\nAlso man kann in den Urlaub, man kann bisschen Picknick machen.\nMan kann abends, morgens essen, wie man gerade Hunger hat.\nDawegen spielts keine Tageszeit, keine Sonnenzeit, kein Winter oder so –\nDie Italiener essen es auch jeden Tach.\nAlso ist eine Nudel ein ein, ein Ewigsessen.\nEgal, aus was es die Nudel gemacht ist.\nEgal, wie du Nudel zubereitet wird, jeder hat sein' Geschmack.\nEiner ist gerade morgens aufgestanden, isst, äh, gerne Nudeln, der macht sich auch morgens Nudeln. Kein bisschen.\nDawegen lass ich auf Nudeln nix' kommen. Humor muss sein.\nDafür ist ja die humorvolle, italienische Nudeln.\nDer hat ja auch Humor, der Italiener.\nEine Nudel kräftigt.\nEine Nudel kräftigt nicht nur, die hat Energie bringt sie, auch nicht dann noch da fürcht‘ ich, wenn man die gegessen hat, hat man auch Freude an den ganzen Tach, umso schneller ist man.\nJa oder, umso mehr baut man seine Kraft und seine Freude auf: Das ist das Wichtige! Haha!\nDie Nudel schmeckt, dadrauf kommt‘s an.",
+      "nextLocation": {
+        "label": "Big tree near the entrance",
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
+    },
+    {
+      "id": "station_09",
+      "slug" : "meddl",
+      "question": "Unter welchem Pseudonym ist Rainer Winkler im Internet bekannt?",
+      "answers": ["Drachenlord", "Drache"],
+      "hint": "Meddl Leude.\nIch fahr kein Motorrad, weil's cool ist. Ich fahr Motorrad, weil ich das gerne fahr. Abgesehen davon fahre ich kein Motorrad.",
+      "nextLocation": {
+        "label": "Big tree near the entrance",
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
+    },
+    {
+      "id": "station_10",
+      "slug" : "kranplaetze",
+      "question": "Was könnnen sich auf unverdichteten Kranplätzen befindende Norweger, auch bekannt als originale Nichtskönner, nicht halten?",
+      "answers": ["Bandmaß", "Bandmass"],
+      "hint": "Das is hier ne Baustelle für Vollidioten. Genau solche Vollidioten wie diese Norweger sind. VOLLIDIOTEN. Darum sind die auch nicht in der EU, weil die am Leben vorbeilaufen...diese Spinnerbande.",
+      "finalMessage":"Herzlichen Glückwunsch, ihr habt es geschafft!🎉"
     }
   ]
 }

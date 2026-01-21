@@ -15,7 +15,7 @@ async function init() {
 
   await loadStations();
 
-  currentStation = findStationById(stationId);
+  currentStation = findStationBySlug(stationId);
 
   if (!currentStation) {
     showMessage("Unknown station.");
@@ -36,6 +36,10 @@ async function loadStations() {
 
 function findStationById(id) {
   return stations.find(station => station.id === id);
+}
+
+function findStationBySlug(slug) {
+  return stations.find(station => station.slug === slug);
 }
 
 
@@ -77,6 +81,18 @@ function setupEventListeners() {
     .addEventListener("click", showHint);
 }
 
+function showFinalMessage(text) {
+  hideAllSections();
+
+  const container = document.getElementById("next-location");
+  const textEl = document.getElementById("location-text");
+  const nextLocationHeader = document.getElementById("next-location-header")
+
+  textEl.textContent = text;
+  nextLocationHeader.textContent = ""
+  container.classList.remove("hidden");
+}
+
 function handleAnswerSubmit() {
   const input = document.getElementById("answer-input");
   const userAnswer = normalize(input.value);
@@ -88,9 +104,13 @@ function handleAnswerSubmit() {
     .includes(userAnswer);
 
   if (isCorrect) {
-    showNextLocation(currentStation.nextLocation);
+    if (currentStation.finalMessage) {
+      showFinalMessage(currentStation.finalMessage);
+    } else {
+      showNextLocation(currentStation.nextLocation);
+    }
   } else {
-    showMessage("That answer is not correct. Try again!");
+    showMessage("Leider falsch. Versucht es noch einmal!");
   }
 }
 
@@ -111,8 +131,33 @@ function showMessage(text) {
   msg.classList.remove("hidden");
 }
 
-function showNextLocation(text) {
-  hideAllSections();
-  document.getElementById("location-text").textContent = text;
-  document.getElementById("next-location").classList.remove("hidden");
+function buildGoogleMapsLink(lat, lng) {
+  return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
 }
+
+function showNextLocation(nextLocation) {
+  hideAllSections();
+
+  const container = document.getElementById("next-location");
+  const text = document.getElementById("location-text");
+
+  text.textContent = nextLocation.label;
+
+  const link = document.createElement("a");
+  link.href = buildGoogleMapsLink(
+    nextLocation.lat,
+    nextLocation.lng
+  );
+  link.textContent = "🗺️Open in Google Maps";
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+
+  link.style.display = "block";
+  link.style.marginTop = "1rem";
+  link.style.textAlign = "center";
+  link.style.fontSize = "1.1rem";
+
+  container.appendChild(link);
+  container.classList.remove("hidden");
+}
+
