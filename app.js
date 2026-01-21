@@ -141,23 +141,22 @@ function showNextLocation(nextLocation) {
   const container = document.getElementById("next-location");
   const text = document.getElementById("location-text");
 
+  // Clear previous content (important if revisiting)
+  container.querySelectorAll("a").forEach(el => el.remove());
+
   text.textContent = nextLocation.label;
 
-  const link = document.createElement("a");
-  link.href = buildGoogleMapsLink(
+  const mapsButton = document.createElement("a");
+  mapsButton.href = buildGoogleMapsLink(
     nextLocation.lat,
     nextLocation.lng
   );
-  link.textContent = "🗺️Open in Google Maps";
-  link.target = "_blank";
-  link.rel = "noopener noreferrer";
+  mapsButton.textContent = "🗺️ Open in Google Maps";
+  mapsButton.className = "button-primary";
+  mapsButton.target = "_blank";
+  mapsButton.rel = "noopener noreferrer";
 
-  link.style.display = "block";
-  link.style.marginTop = "1rem";
-  link.style.textAlign = "center";
-  link.style.fontSize = "1.1rem";
-
-  container.appendChild(link);
+  container.appendChild(mapsButton);
   container.classList.remove("hidden");
 }
 
