@@ -7,9 +7,9 @@
       "answers": ["ein journalistischer Trick", "journalistischer Trick"],
       "hint": "Sie hätten mich anders befragen müssen",
       "nextLocation": {
-        "label": "Big tree near the entrance",
-        "lat": 52.520008,
-        "lng": 13.404954
+        "label": "An der gesperrten Brücke",
+        "lat": 52.40715427366517,
+        "lng": 13.374690011400284
       }
     },
     {
@@ -19,9 +19,9 @@
       "answers": ["müde"],
       "hint": "a) alt\nb) müde\nc) kaputt gehen\nd) teuer",
       "nextLocation": {
-        "label": "Big tree near the entrance",
-        "lat": 52.520008,
-        "lng": 13.404954
+        "label": "Innerhalb der Kirchenmauer",
+        "lat": 52.41202001151386,
+        "lng": 13.367492605095235
       }
     },
     {
@@ -31,9 +31,9 @@
       "answers": ["Zigaretten", "Zigaretten Packung", "Zigarettenpackung", "Packung Zigaretten", "eine Packung Zigaretten", "eine Zigarettenpackung", "eine Zigaretten Packung"],
       "hint": "a) Glücksbringer\nb) Rubbellose\nc) Zigaretten\nd) Ibuprofen",
       "nextLocation": {
-        "label": "Big tree near the entrance",
-        "lat": 52.520008,
-        "lng": 13.404954
+        "label": "An der besten Station des Spielplatzes",
+        "lat": 52.41826073963671,
+        "lng":  13.355774611167199
       }
     },
     {
@@ -43,9 +43,9 @@
       "answers": ["Köftespieß", "Köfte-Spieß", "Köfte Spieß", "Köfte", "Ayran", "Handy", "Smartphone"],
       "hint": "a) Tipico-Schein\nb) Köfte-Spieß\nc) Zigaretten\nd) Prostituierte",
       "nextLocation": {
-        "label": "Big tree near the entrance",
-        "lat": 52.520008,
-        "lng": 13.404954
+        "label": "B",
+        "lat": 52.42121507133309,
+        "lng": 13.357207632173923
       }
     },
     {
@@ -55,9 +55,9 @@
       "answers": ["Orangensaft verschüttet"],
       "hint": "Frag' nicht was für _! _ einfach! Turn up!",
       "nextLocation": {
-        "label": "Big tree near the entrance",
-        "lat": 52.520008,
-        "lng": 13.404954
+        "label": "Määäääääh!",
+        "lat": 52.431663258998505,
+        "lng": 13.352353685819422
       }
     },
     {
@@ -67,9 +67,9 @@
       "answers": ["Obst"],
       "hint": "a) Obst\nb) Gemüse\nc) Staubwedel\nd) Klobürste",
       "nextLocation": {
-        "label": "Big tree near the entrance",
-        "lat": 52.520008,
-        "lng": 13.404954
+        "label": "Ha-Ho-He!",
+        "lat": 52.445443944698745,
+        "lng": 13.339124262204175
       }
     },
     {
@@ -79,9 +79,9 @@
       "answers": ["Kapriolen", "Keine Kapriolen"],
       "hint": "a) Eulenspiegeleien\nb) Schabernacke\nc) Schelmereien\nd) Kapriolen",
       "nextLocation": {
-        "label": "Big tree near the entrance",
-        "lat": 52.520008,
-        "lng": 13.404954
+        "label": "Bei den steinernen Sitzgruppen",
+        "lat": 52.4477644013997,
+        "lng": 13.336510856588795
       }
     },
     {
@@ -91,9 +91,9 @@
       "answers": ["Nudel", "Nudeln", "Pasta"],
       "hint": "Eine Nudel ist ein … – also ‘n Ganztag.\nMan kann im Winter, Sommer; man kann morgens, abends sie essen.\nEin Nudel ist ein wirklich ein sehr leckeres Gericht.\nMan kann Nudeln machen warm, man kann Nudeln machen kalt.\nAlso man kann in den Urlaub, man kann bisschen Picknick machen.\nMan kann abends, morgens essen, wie man gerade Hunger hat.\nDawegen spielts keine Tageszeit, keine Sonnenzeit, kein Winter oder so –\nDie Italiener essen es auch jeden Tach.\nAlso ist eine Nudel ein ein, ein Ewigsessen.\nEgal, aus was es die Nudel gemacht ist.\nEgal, wie du Nudel zubereitet wird, jeder hat sein' Geschmack.\nEiner ist gerade morgens aufgestanden, isst, äh, gerne Nudeln, der macht sich auch morgens Nudeln. Kein bisschen.\nDawegen lass ich auf Nudeln nix' kommen. Humor muss sein.\nDafür ist ja die humorvolle, italienische Nudeln.\nDer hat ja auch Humor, der Italiener.\nEine Nudel kräftigt.\nEine Nudel kräftigt nicht nur, die hat Energie bringt sie, auch nicht dann noch da fürcht‘ ich, wenn man die gegessen hat, hat man auch Freude an den ganzen Tach, umso schneller ist man.\nJa oder, umso mehr baut man seine Kraft und seine Freude auf: Das ist das Wichtige! Haha!\nDie Nudel schmeckt, dadrauf kommt‘s an.",
       "nextLocation": {
-        "label": "Big tree near the entrance",
-        "lat": 52.520008,
-        "lng": 13.404954
+        "label": "Höhö Ständer",
+        "lat": 52.45456694051382,
+        "lng": 13.342068977281652
       }
     },
     {
@@ -103,9 +103,9 @@
       "answers": ["Drachenlord", "Drache"],
       "hint": "Meddl Leude.\nIch fahr kein Motorrad, weil's cool ist. Ich fahr Motorrad, weil ich das gerne fahr. Abgesehen davon fahre ich kein Motorrad.",
       "nextLocation": {
-        "label": "Big tree near the entrance",
-        "lat": 52.520008,
-        "lng": 13.404954
+        "label": "Alina kommt es vielleicht so langsam doch etwas bekannt vor...",
+        "lat": 52.460904550727655,
+        "lng": 13.341926507600226
       }
     },
     {
